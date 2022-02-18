@@ -621,7 +621,7 @@ p{
     opacity: 1;
   }
 
-  /* =========== footer two =========== */
+  /* =========== footer two with newsleter=========== */
 
   .footer-two{
     padding-top: 72px;
@@ -662,6 +662,42 @@ p{
     cursor: pointer;
   }
   
+/*  Newsleter box  */
+  .footer-input-email:placeholder-shown {
+    border-color: var(--second-color);
+  }
+
+  .footer-input-email {
+  padding: 16px;
+  width: 385px;
+  height: 50px;
+  border: 1px solid var(--second-color);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+  }
+
+  .footer-newsleter {
+    display: flex;
+    gap: 12px;
+  }
+
+  .footer-button {
+    width: 200px;
+    height: 50px;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-weight: var(--font-weight-bold);
+    line-height: 30px;
+    letter-spacing: var(--spacing-percent-6);
+    padding: 10px 42px 10px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    /* cursor: pointer; */
+    cursor: no-drop;
+  }
+
   .footer-svg:hover,
   .footer-svg:active{
     background-color: var(--accent-color) ;
