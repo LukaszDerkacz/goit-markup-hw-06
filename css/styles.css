@@ -680,6 +680,7 @@ p{
   .footer-newsleter {
     display: flex;
     gap: 12px;
+    fill: var(--white-color);
   }
 
   .footer-button {
@@ -688,7 +689,6 @@ p{
     width: 200px;
     height: 50px;
     color: var(--white-color);
-    fill: var(--white-color);
     background-color: var(--accent-color);
     font-weight: var(--font-weight-bold);
     line-height: 30px;
@@ -698,19 +698,15 @@ p{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     /* cursor: pointer; */
     cursor: no-drop;
+    fill: var(--white-color);
   }
 
   .footer-newsleter-svg {
     fill: var(--white-color);
-    /* width: 44px; */
-    /* height: 44px; */
-    /* display: flex; */
-    /* align-items: center; */
-    justify-content: center;
-    /* background: rgba(255, 255, 255, 0.1); */
-    /* border-radius: 50%; */
-    cursor: pointer;
+  }
 
+  .footer-newsleter-svg2 {
+    fill: var(--white-color);
   }
 
   .footer-svg:hover,
