@@ -684,21 +684,28 @@ p{
   }
 
   .footer-button {
-    display: flex;
-    gap: 10px;
+    /* width: 3em;
+    height: 3em; */
+    fill: var(--white-color);
+    /* background-color: var(--accent-color); */
+    /* background: var(--accent-color) url('../images/icon-sendsvg.svg' )  center no-repeat  ; */
+    background-image: url('../images/icon-sendsvg.svg') var(--white-color);
+    /* background: url("/images/icon-send.svg") var(--white-color) center; */
+    
+    background-color: var(--accent-color);
+    /* display: flex;
+    gap: 10px; */
     width: 200px;
     height: 50px;
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    font-weight: var(--font-weight-bold);
-    line-height: 30px;
-    letter-spacing: var(--spacing-percent-6);
-    padding: 10px 42px ;
-    border: 0; 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    /* cursor: pointer; */
+    /* color: var(--white-color); */
+    /* font-weight: var(--font-weight-bold); */
+    /* line-height: 30px; */
+    /* letter-spacing: var(--spacing-percent-6); */
+    /* padding: 10px 42px ; */
+    /* border: 0;  */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+     /* cursor: pointer; */
     cursor: no-drop;
-    fill: var(--white-color);
   }
 
   .footer-newsleter-svg {
