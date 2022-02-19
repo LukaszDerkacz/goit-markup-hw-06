@@ -707,6 +707,7 @@ p{
 
   .footer-newsleter-svg2 {
     fill: var(--white-color);
+    z-index: 2;
   }
 
   .footer-svg:hover,
