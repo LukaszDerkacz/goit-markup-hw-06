@@ -576,7 +576,7 @@ p{
     gap: 70px;
   }
 
-  /* =========== footer one =========== */
+  /* =========== 1. footer =========== */
   
   .footer-one{
     justify-content: center;
@@ -621,14 +621,13 @@ p{
     opacity: 1;
   }
 
-  /* =========== footer two with newsleter=========== */
+  /* =========== 2. footer =========== */
 
   .footer-two{
     padding-top: 72px;
   }
 
   .footer-two h3{
-    /* border-top: 72px; */
     color: var(--white-color);
     text-transform: uppercase;
     font-size: var(--font-size-14px);
@@ -662,7 +661,7 @@ p{
     cursor: pointer;
   }
   
-/*  Newsleter box  */
+/* =========== 3. footer Newsleter box =========== */
   .footer-newsleter {
     display: flex;
     gap: 12px;
@@ -719,22 +718,8 @@ p{
     background-color: var(--accent-color) ;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  /**/
- 
-  
-  /* .Submit-ico {
-    margin-left: 24px;
-  } */
-/*   
-  .footer-input-email:hover,
-  .footer-input-email:focus,
-  .footer-input-email:active {
-    border-color: #2196f3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    outline: none;
-  } */
-  /**/
-/**/
+
+/* =========== END FOOTER =========== */
 /* ========= BACKDROP ========= */
   .modal {
     position: absolute;
