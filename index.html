@@ -63,6 +63,43 @@
                     <h1>EFEKTYWNE ROZWIĄZANIA  DLA WASZEGO BIZNESU</h1>
                     <button type="button" class="main-title-button" data-modal-open>Zamów usługę</button>
                 </div>
+
+                <!-- second window -->
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button type="button" class="close-btn" data-modal-close>x</button>
+                        <div class="form">
+                            <form name="form_for_offer" novalidate>
+                                <h4>Zostaw swoje dane w formularzu poniżej</h4>
+                                <div class="form-inputs">
+                                    <label class="form-label">
+                                        <span class="label-text">Imie</span>
+                                        <input type="text" class="form-input form-input-imie" name="Imie" placeholder=""/>
+                                    </label>
+                                    <label class="form-label">
+                                        <span class="label-text">Telefon</span>
+                                        <input type="text" class="form-input form-input-telefon" name="Telefon" placeholder=""/>
+                                    </label>
+                                    <label class="form-label">
+                                        <span class="label-text">Email</span>
+                                        <input type="email" class="form-input form-input-email" name="Email" placeholder=""/>
+                                    </label>
+                                    <label class="form-label">
+                                        <span class="label-text">Komentarz</span>
+                                        <textarea class="form-textarea" rows="5" style="resize: none;" name="Komentarz" placeholder="Wprowadź tekst"></textarea>
+                                    </label>
+                                </div>
+                                <div class="form-checkbox">
+                                    <label class="checkbox">
+                                        <input type="checkbox" class="form-input-zgoda" name="Zgoda"/><span class="checkbox-text">Oświadczam iż akceptuję <a href="https://www.sejm.gov.pl/prawo/konst/polski/kon1.htm">Regulamin</a> i <a href="https://uodo.gov.pl/pl/file/727">Politykę Prywatności.</a></span>
+                                    </label>
+                                </div>
+                                    <button class="form_button" type="submit">Wyślij</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        
             </section>
             <section class="table-description">
                 <div class="container">
@@ -512,7 +549,7 @@
                 <div class="footer-two">
                     <h3>Dołącz do nas</h3>
                     <ul class="footer-icons">
-                        <li class="footer-icons-gap">
+                        <li>
                             <a class="footer-svg" href="https://www.instagram.com/">
                                 <svg width="20" height="20">
                                     <use
@@ -522,7 +559,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-icons-gap">
+                        <li>
                             <a class="footer-svg" href="https://twitter.com/">
                                 <svg width="20" height="20">
                                     <use
@@ -532,7 +569,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-icons-gap">
+                        <li>
                             <a class="footer-svg" href="https://www.facebook.com/">
                                 <svg width="20" height="20">
                                     <use
@@ -542,7 +579,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-icons-gap">
+                        <li>
                             <a class="footer-svg" href="https://pl.linkedin.com/">
                                 <svg width="20" height="20">
                                     <use
@@ -577,12 +614,6 @@
                 </div>
             </div>
         </footer>
-
-        <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-                <button type="button" class="close-btn" data-modal-close>x</button>
-            </div>
-        </div>
 
         <script src="./js/modal.js"></script>
     </body>
