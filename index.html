@@ -68,13 +68,14 @@
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
                         <button type="button" class="close-btn" data-modal-close>x</button>
-                        <div class="form">
-                            <form name="form_for_offer" novalidate>
-                                <h4>Zostaw swoje dane w formularzu poniżej</h4>
-                                <div class="form-inputs">
+                        <div class="modal-form">
+                            <form>
+                                <h3>Zostaw swoje dane w formularzu poniżej</h3>
+                                <div class="modal-inputs">
                                     <label class="form-label">
-                                        <span class="label-text">Imie</span>
+                                        <span class="modal-text">Imie</span>
                                         <input type="text" class="form-input form-input-imie" name="Imie" placeholder=""/>
+                                
                                     </label>
                                     <label class="form-label">
                                         <span class="label-text">Telefon</span>
@@ -90,7 +91,8 @@
                                     </label>
                                 </div>
                                 <div class="form-checkbox">
-                                    <label class="checkbox">
+                                    <input type="checkbox" class="modal-input-box" value="modal-checkbox-input" id="modal-checkbox-input">
+                                    <label class="checkbox" for="modal-checkbox-input">
                                         <input type="checkbox" class="form-input-zgoda" name="Zgoda"/><span class="checkbox-text">Oświadczam iż akceptuję <a href="https://www.sejm.gov.pl/prawo/konst/polski/kon1.htm">Regulamin</a> i <a href="https://uodo.gov.pl/pl/file/727">Politykę Prywatności.</a></span>
                                     </label>
                                 </div>
