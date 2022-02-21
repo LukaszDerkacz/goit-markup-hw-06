@@ -66,42 +66,74 @@
 
                 <!-- second window -->
                 <div class="backdrop is-hidden" data-modal>
-                    <div class="modal">
-                        <button type="button" class="close-btn" data-modal-close>x</button>
-                        <div class="modal-form">
-                            <form>
-                                <h3>Zostaw swoje dane w formularzu poniżej</h3>
-                                <div class="modal-inputs">
-                                    <label class="modal-label">
-                                        <span class="modal-text">Imie</span>
-                                        <input type="text" class="form-input form-input-imie" name="Imie" placeholder=""/>
+                    <div class="modal-window">
+                        <button type="button" class="close-btn" data-modal-close>
+                            <svg width="30" height="30">
+                                <use 
+                                    href="./images/symbol-defs.svg#icon-x" 
+                                    width="30" height="30"
+                                ></use>
+                            </svg>
+                        </button>
+                        <form class="modal-form">
+                            <div class="modal-body"></div>
+                                <h4>Zostaw swoje dane w formularzu poniżej</h4>
+                                <label class="modal-label" for="imie">Imie
+                                    <div class="modal-input">
+                                        <input type="text" class="modal-label-input" required  name="imie" id="imie" />
+                                        <svg width="12" height="12">
+                                            <use
+                                                href="./images/symbol-defs.svg#icon-person"
+                                                width="12" height="12"
+                                            ></use>
+                                        </svg>
+                                    </div>
+                                </label>
+                                <label class="modal-label" for="telefon">Telefon
+                                    <div class="modal-input">
+                                        <input type="text" class="modal-label-input" required  name="telefon" id="telefon" />
+                                        <svg width="12" height="12">
+                                            <use
+                                                href="./images/symbol-defs.svg#icon-phone"
+                                                width="12" height="12"
+                                            ></use>
+                                        </svg>
+                                    </div>
+                                </label>
+                                <label class="modal-label" for="mail">Email
+                                    <div class="modal-input">
+                                        <input type="text" class="modal-label-input" required  name="mail" id="mail"/>
+                                        <svg width="12" height="12">
+                                            <use
+                                                href="./images/symbol-defs.svg#icon-phone"
+                                                width="12" height="12"
+                                            ></use>
+                                        </svg>
+                                    </div>
+                                </label>
+                                <label class="form-label" for="komentarz">Komentarz
+                                    <textarea name="komentarz" id="komentarz" placeholder="Wprowadź tekst"></textarea>
+                                </label>
                                 
-                                    </label>
-                                    <label class="form-label">
-                                        <span class="label-text">Telefon</span>
-                                        <input type="text" class="form-input form-input-telefon" name="Telefon" placeholder=""/>
-                                    </label>
-                                    <label class="form-label">
-                                        <span class="label-text">Email</span>
-                                        <input type="email" class="form-input form-input-email" name="Email" placeholder=""/>
-                                    </label>
-                                    <label class="form-label">
-                                        <span class="label-text">Komentarz</span>
-                                        <textarea class="form-textarea" rows="5" style="resize: none;" name="Komentarz" placeholder="Wprowadź tekst"></textarea>
-                                    </label>
-                                </div>
-                                <div class="form-checkbox">
-                                    <input type="checkbox" class="modal-input-box" value="modal-checkbox-input" id="modal-checkbox-input">
-                                    <label class="checkbox" for="modal-checkbox-input">
-                                        <input type="checkbox" class="form-input-zgoda" name="Zgoda"/><span class="checkbox-text">Oświadczam iż akceptuję <a href="https://www.sejm.gov.pl/prawo/konst/polski/kon1.htm">Regulamin</a> i <a href="https://uodo.gov.pl/pl/file/727">Politykę Prywatności.</a></span>
+                                <div class="policy-wrapper">
+                                    <label class="policy" for="policy">
+                                        <input class="policy" type="checkbox" unchecked required name="policy" id="policy" >
+                                        <span class="checkmark">
+                                            <svg class="checkmark-svg" width="15" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-Vector" width="15" height="16"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="policy-text">Oświadczam iż akceptuję</span>
+                                        <a href="#">Regulamin</a>
+                                        <span class="policy-text">i</span>
+                                        <a href="#">Politykę Prywatności.</a>
                                     </label>
                                 </div>
-                                    <button class="form_button" type="submit">Wyślij</button>
-                            </form>
-                        </div>
+                                <button class="modal-btn" type="submit">Wyślij</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-        
             </section>
             <section class="table-description">
                 <div class="container">
