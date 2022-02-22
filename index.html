@@ -67,8 +67,8 @@
                 <!-- second window -->
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal-window">
-                        <button type="button" class="close-btn" data-modal-close>
-                            <svg width="30" height="30">
+                        <button class="close-btn" data-modal-close>
+                            <svg width="11" height="11">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-x" 
                                     width="11" height="11"
@@ -76,19 +76,19 @@
                             </svg>
                         </button>
                         <form class="modal-form">
-                            <div class="modal-body"></div>
+                            <div class="modal-body">
                                 <h4>Zostaw swoje dane w formularzu poniżej</h4>
-                                <label class="modal-label" for="imie">Imie
-                                    <div class="modal-input">
-                                        <input type="text" class="modal-label-input" required  name="imie" id="imie" />
-                                        <svg width="12" height="12">
+                                <div class="modal-test">
+                                    <label class="name-label">Imie
+                                        <svg class="icon icon-user" width="12" height="12">
                                             <use
                                                 href="./images/symbol-defs.svg#icon-person"
                                                 width="12" height="12"
                                             ></use>
                                         </svg>
-                                    </div>
-                                </label>
+                                        <input type="text" required  name="imie" id="imie" />
+                                    </label>
+                                </div>
                                 <label class="modal-label" for="telefon">Telefon
                                     <div class="modal-input">
                                         <input type="text" class="modal-label-input" required  name="telefon" id="telefon" />
@@ -105,14 +105,16 @@
                                         <input type="text" class="modal-label-input" required  name="mail" id="mail"/>
                                         <svg width="12" height="12">
                                             <use
-                                                href="./images/symbol-defs.svg#icon-phone"
+                                                href="./images/symbol-defs.svg#icon-email-black"
                                                 width="12" height="12"
                                             ></use>
                                         </svg>
                                     </div>
                                 </label>
-                                <label class="form-label" for="komentarz">Komentarz
-                                    <textarea name="komentarz" id="komentarz" placeholder="Wprowadź tekst"></textarea>
+                                <label class="modal-label" for="komentarz">Komentarz
+                                    <div class="modal-input">                                   
+                                        <textarea name="komentarz" id="komentarz" placeholder="Wprowadź tekst"></textarea>
+                                    </div> 
                                 </label>
                                 
                                 <div class="policy-wrapper">
@@ -134,6 +136,7 @@
                         </form>
                     </div>
                 </div>
+                <!-- END second window -->
             </section>
             <section class="table-description">
                 <div class="container">
