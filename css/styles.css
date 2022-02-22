@@ -749,10 +749,10 @@ p{
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    fill: var(--white-color);
+    fill: var(--color-primary);
     background-color: var(--white-color);
     display: flex;
-    float: right;
+    /* float: right; */
   }
 
   .modal-window {
@@ -772,7 +772,7 @@ p{
     align-items: center;
     justify-content: center;
   }
-
+   
   .modal-body {
     padding: 40px;
     width: 100%;
