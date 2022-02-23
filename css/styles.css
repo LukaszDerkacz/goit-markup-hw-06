@@ -659,7 +659,7 @@ p{
   }
 
   .footer-input-email:placeholder-shown {
-    border-color: var(--second-color);
+    border: 1px solid var(--second-color);
   }
 
   .footer-input-email {
