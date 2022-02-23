@@ -80,19 +80,21 @@
                                 <h4>Zostaw swoje dane w formularzu poniżej</h4>
                                 <ul class="modal-body">
                                     <li class="modal-label">
-                                        <label class="modal-input"> Imie
-                                            <input type="text" class="modal-label-input" required name="imie" id="imie" />
-                                        
-                                            <svg class="modal-svg" width="12" height="12">
-                                                <use
-                                                    href="./images/symbol-defs.svg#icon-person"
-                                                    width="12" height="12"
-                                                ></use>
-                                            </svg>
+                                        <label class="modal-input" for="imie"> Imie
+                                            <div class="modal-icon-svg">
+                                                <input type="text" class="modal-label-input" required name="imie" id="imie" />
+                                            
+                                                <svg class="modal-svg" width="12" height="12">
+                                                    <use
+                                                        href="./images/symbol-defs.svg#icon-person"
+                                                        width="12" height="12"
+                                                    ></use>
+                                                </svg>
+                                            </div>
                                         </label>                             
                                     </li>
                                     <li class="modal-label">
-                                        <label class="modal-input">Telefon
+                                        <label class="modal-input" for="telefon">Telefon
                                             <input type="text" class="modal-label-input" required name="telefon" id="telefon" />
                                             <svg width="12" height="12">
                                                 <use
@@ -103,7 +105,7 @@
                                         </label>
                                     </li>
                                     <li class="modal-label">
-                                        <label class="modal-input">Email
+                                        <label class="modal-input" for="mail">Email
                                             <input type="text" class="modal-label-input" required  name="mail" id="mail"/>
                                             <svg width="12" height="12">
                                                 <use
@@ -114,25 +116,23 @@
                                         </label>
                                     </li>
                                     <li class="modal-label">
-                                        <label  class="modal-input">Komentarz
+                                        <label  class="modal-input" for="komentarz">Komentarz
                                             <textarea name="komentarz" id="komentarz" placeholder="Wprowadź tekst"></textarea>
                                         </label>
                                     </li>
-                                    <li>
-                                        <div class="policy-wrapper">
-                                            <label class="policy" for="policy">
-                                                <input class="policy" type="checkbox" unchecked required name="policy" id="policy" >
-                                                <span class="checkmark">
-                                                    <svg class="checkmark-svg" width="15" height="16">
-                                                        <use href="./images/symbol-defs.svg#icon-Vector" width="15" height="16"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="policy-text">Oświadczam iż akceptuję</span>
-                                                <a href="#">Regulamin</a>
-                                                <span class="policy-text">i</span>
-                                                <a href="#">Politykę Prywatności.</a>
-                                            </label>
-                                        </div>
+                                    <li class="policy-wrapper">
+                                        <label class="policy" for="policy">
+                                            <input class="policy" type="checkbox" unchecked required name="policy" id="policy" >
+                                            <span class="checkmark">
+                                                <svg class="checkmark-svg" width="15" height="16">
+                                                    <use href="./images/symbol-defs.svg#icon-Vector" width="15" height="16"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="policy-text">Oświadczam iż akceptuję</span>
+                                            <a href="#">Regulamin</a>
+                                            <span class="policy-text">i</span>
+                                            <a href="#">Politykę Prywatności.</a>
+                                        </label>
                                         <button class="modal-btn" type="submit">Wyślij</button>
                                     </li>
                                 </ul>
