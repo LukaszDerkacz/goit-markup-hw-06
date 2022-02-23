@@ -762,14 +762,15 @@ p{
     padding: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
   }
    
   .modal-body {
-    width: 100%;
-    /* display: flex;
-    flex-direction: column; */
+    
+    display: flex;
+    flex-direction: column;
   }
 
   .modal-body h4{
@@ -791,7 +792,7 @@ p{
   }
 
   label{
-    position: relative;
+    /* position: relative; */
     /* display: flex;
     flex-direction: column; */
   }
