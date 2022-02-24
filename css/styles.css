@@ -690,7 +690,8 @@ p{
     line-height: 30px;
     text-align: center;
     letter-spacing: var(--spacing-percent-6);
-    cursor: no-drop;
+    /* cursor: no-drop; */
+    cursor: pointer;
   } 
 
   .footer-button-text {
@@ -808,11 +809,12 @@ p{
     font-size: 12px;
     line-height: var(--font-size-14px);
     letter-spacing: 0.01em;
+    position: relative;
   }
   
 
   .modal-label-input {
-    position: relative;
+    position: absolute;
     height: 40px;
     width: 448px;
     padding-left: 42px;    
@@ -933,7 +935,7 @@ p{
     margin: 0 5px;
   }
 
-  .modal-btn {
+  .modal-button {
     margin: 30px auto auto auto;
     color: var(--white-color);
     background-color: var(--accent-color);
